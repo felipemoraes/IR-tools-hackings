@@ -1,11 +1,11 @@
 # IR-tools-hackings
 IR tools hackings
 
-Acepto contribuciones :)
 
-# 1) Instalar pyndri en MacOS con Anaconda
 
-- Sólo añade esta flag en el arquivo setup.py
+# 1) Instalar pyndri no MacOS com Anaconda
+
+- Adiciona no arquivo setup.py a seguinte linha depois de `undef_macros=['NDEBUG']`
 `extra_compile_args = ["-std=c++11"]`
 
 
